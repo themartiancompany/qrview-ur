@@ -26,7 +26,6 @@ license=(
 depends=(
   "libcaca"
   "libcrash-bash"
-  "qrencode"
 )
 _os="$( \
   uname \
@@ -35,11 +34,13 @@ _os="$( \
 [[ "${_os}" != "Android" ]] && \
   depends+=(
     'kbd'
+    'qrencode'
     'xdg-utils'
   )
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    'libqrencode'
     'termux-tools'
   )
 optdepends=(
