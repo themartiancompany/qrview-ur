@@ -1,0 +1,19 @@
+pkgbase = qrview
+	pkgdesc = Cross platform QR viewer
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/qrview
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcaca
+	depends = libcrash-bash
+	depends = qrencode
+	depends = termux-tools
+	source = qrview-3adb0c64cc9e55f3895e7894d996ab8a4ee63c05.zip::https://github.com/themartiancompany/qrview/archive/3adb0c64cc9e55f3895e7894d996ab8a4ee63c05.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	validpgpkeys = DD6732B02E6C88E9E27E2E0D5FC6652B9D9A6C01
+	sha256sums = f422e05c4d887ba77ec8cc0277fe61f7b6cd272b81e54ea9e2cb22cd3dfd3870
+
+pkgname = qrview
